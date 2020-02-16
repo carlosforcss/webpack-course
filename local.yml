@@ -7,4 +7,5 @@ services:
             dockerfile: ./compose/local/Dockerfile
         volumes:
             - .:/webpack/
-
+        ports:
+          - 80:80
