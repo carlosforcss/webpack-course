@@ -1,0 +1,23 @@
+import React from 'react'
+import { Component } from 'react'
+import estilos from '../../less/estilos.less'
+
+
+class App extends Component {
+  render() {
+  	let texto = "Hola mundo con resct"
+
+  	handleClick = async function(){
+  		const alert = async import("./alert.js")
+  		alert("mensaje")	
+  	}
+
+    return (
+    	<div class="titulo" onClick={handleClick}>
+			<h1>Hola mundo desde React</h1>
+    	</div>
+    )
+  }
+}
+
+export default App

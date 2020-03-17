@@ -1,0 +1,18 @@
+body {
+	background: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	font-family: Arial;
+	margin: 0;
+	box-sizing: border-box;
+}
+.titulo {
+  background: red;
+}
+.titulo:after {
+  border: 10px solid #000;
+  content: "contenido";
+}
+
